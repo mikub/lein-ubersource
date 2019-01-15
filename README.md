@@ -1,4 +1,4 @@
-#WARNING! This repo is not maintained
+#Semi-maintained fork of [puppetlabs/lein-ubersource](https://github.com/puppetlabs/lein-ubersource)
 # lein-ubersource
 
 A [Leiningen](https://github.com/technomancy/leiningen) plugin to download source code for all (transitive) dependencies of a project.
@@ -10,7 +10,7 @@ __Leiningen__ ([via Clojars](https://clojars.org/lein-ubersource))
 Put the following into the `:plugins` vector of the `:user` profile in your `~/.lein/profiles.clj`:
 
 ```clojure
-[lein-ubersource "0.1.1"]
+[io.titanoboa/lein-ubersource "0.1.2"]
 ```
 
 This plugin is destined for Leiningen >= 2.0.0.
